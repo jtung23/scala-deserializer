@@ -120,6 +120,7 @@ object DS {
 
   def main(args: Array[String]): Unit = {
     var result = ds.returnsTheCorrectJPattern(cleanJson, 0, cleanJson.length)
+    println(result)
   }
 
 }
