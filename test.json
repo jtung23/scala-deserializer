@@ -1,0 +1,47 @@
+{
+    "offering": [
+      "BenefitOffered",
+      {
+        "benefit": {
+          "endOn": "2018-08-31",
+          "groups": null,
+          "startOn": "2017-09-01",
+          "benefitDoc": null,
+          "planDetails": [
+            {
+              "tpaUrl": null,
+              "tpaName": "Lumity",
+              "planName": "Lumity Waiver Payout",
+              "offeredTo": "2018-08-31",
+              "benefitKind": "Payout",
+              "offeredFrom": "2017-09-01",
+              "planMktName": "Lumity Waiver Payout",
+              "planDocument": null,
+              "eligibleGroups": null,
+              "marketingDescription": "Waive Medical, Dental, and Vision for $100/month credit"
+            }
+          ],
+          "benefitAdmin": "InternalBenefitAdmin",
+          "waitingPeriod": [
+            "FixedDaysNextMonthStart",
+            {
+              "days": 0
+            }
+          ],
+          "electionValidator": "DefaultElectionValidator",
+          "emprContributionCalculator": [
+            "FixedDollarPayoutContributionCalculator",
+            {
+              "amount": 1200
+            }
+          ],
+          "eeContributionDeductionCalculator": "PayrollDeductionOnAllPayDatesCalculator"
+        }
+      }
+    ],
+    "benefitKinds": [
+      "Medical",
+      "Dental",
+      "Vision"
+    ]
+  }

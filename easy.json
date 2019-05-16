@@ -1,0 +1,11 @@
+{
+    "endOn": {
+        "hello": "blue",
+        "hi": "red"
+    },
+    "hi": ["yellow", "green"],
+    "bye": "2018-08-31",
+    "groups": 20,
+    "startOn": "2017-09-01",
+    "benefitDoc": null
+}
