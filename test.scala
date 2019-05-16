@@ -13,14 +13,11 @@ case class JField(j: HashMap[String, JPattern]) extends JPattern
 
 
 class Deserialize {
-  val z = ":,"
   var comma: String = ","
-  val symbols: Array[Char] = z.toArray
   val brackets = Map("}" -> "{", "]" -> "[")
   val openBrace: Char = "{".charAt(0)
   val openBracket: Char = "[".charAt(0)
   val colon: Char = ":".charAt(0)
-  val quote: Char = '\"'
 
   // Determines what type of Pattern and returns String/Null/Float
   // and returns a HashMap or Array if 
